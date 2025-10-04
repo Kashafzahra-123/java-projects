@@ -1,0 +1,35 @@
+
+import java.util.*;
+public class BankAccount {
+    public static void main(String[] args) throws Exception {
+        Scanner s=new Scanner(System.in);
+        int n;
+        System.err.println("Welcome to your Bank Account");
+        System.err.println("1: View Balance");
+        System.err.println("2: Deposit");
+        System.err.println("3: Withdraw");
+        System.err.println("4: Exit");
+        System.err.println("Enter Your Choice");
+        n=s.nextInt();
+        switch (n) {
+            case 1:
+            System.err.println("Viewing Balance..."); 
+                break;
+                case 2:
+                System.err.println("Proceeding to Deposit");
+                break;
+                case 3:
+                System.err.println("Initiating Withdraw...");
+                break;
+                case 4:
+                System.err.println("Exiting. Thank YOu!");
+                break;
+            default:
+            System.out.println("Invalid Choice .Please try again");
+
+        }
+
+
+
+    }
+}
